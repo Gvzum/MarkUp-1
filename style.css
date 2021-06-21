@@ -263,6 +263,9 @@ a {
 
 /* Feature */
 
+.feature {
+    margin-bottom: 120px;
+}
 
 .feature__inner {
     display: flex;
@@ -271,8 +274,15 @@ a {
     justify-content: center;
 }
 
-.feature__title {
-    /* text-align: center; */
+.feature__header {
+    margin-bottom: 60px;
+
+}
+
+
+/* Default lines and title  */
+
+.title {
     font-size: 42px;
     opacity: 80%;
     text-transform: uppercase;
@@ -281,19 +291,25 @@ a {
     margin-bottom: 35px;
 }
 
-.feature__subtitle {
-    margin: 0 auto;
-    max-width: 523px;
-    height: 200px;
+.feature-title {
     text-align: center;
+}
+
+.subtitle {
+    max-width: 523px;
+    max-height: 100px;
     font-size: 16px;
     line-height: 1.75;
     opacity: 70%;
-
-
 }
 
-.feature__subtitle::after {
+.feature-subtitle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.subtitle::after {
     content: "";
     width: 130px;
     height: 2px;
@@ -302,6 +318,8 @@ a {
 
     margin-top: 25px;
 }
+
+/* feature nav */
 
 .feature__nav {
     text-transform: uppercase;
@@ -341,6 +359,139 @@ a {
 
 
 
+/* Team */
+
+
+.heading {
+    margin-bottom: 60px;
+
+}
+
+
+
+.team__content {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 108px;
+
+
+}
+
+.team__info {
+    padding-top: 20px;
+}
+
+.team__name {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    opacity: 80%;
+
+    margin-bottom: 25px;
+}
+
+.team__quote {
+    font-size: 16px;
+    line-height: 1.75;
+    opacity: 70%;
+    font-weight: normal;
+    max-width: 670px;
+
+    margin-bottom: 40px;
+
+}
+
+.team__socials {
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+    opacity: 80%;
+
+    margin-bottom: 40px;
+
+}
+
+.team__social:not(:first-child) {
+    margin-left: 20px;
+
+}
+
+
+
+/* Email */
+
+.email {
+    background-color: #f5f0dd;
+
+}
+
+.email__header {
+    
+}
+
+
+.email__inner {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.email__header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 0.5;
+    opacity: 80%;
+
+    color: #fff;
+
+    margin-bottom: 32px;
+
+}
+
+.email__subtitle {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #fff;
+    opacity: 80%;
+
+    text-align: center;
+
+    margin-bottom: 52px;
+
+}
+
+.emailing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailing__btn {
+    height: 79px;
+    width: 520px;
+
+    border-radius: 5px;
+    border: 2px solid #fff; 
+
+    padding: 32px 321px 32px 32px;
+
+
+
+}
+.email-btn {
+    height: 79px;
+
+    margin-left: 22px;
+
+}
+.emailing__btn p {
+    font-size: 16px;
+    line-height: 1.75;
+
+    color: #2c2c2c;
+    opacity: 70%;
+
+}
 
 
 
